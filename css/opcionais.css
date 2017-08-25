@@ -1,0 +1,27 @@
+no html
+
+<img src="http://mirrorfashion.net/loja/img/destaque-home.jpg">
+<img src="http://mirrorfashion.net/loja/img/destaque-home-2.jpg">
+
+no css
+
+@keyframes trocaBanner {
+	0%,40%,100%{opacity:1;}
+	50%,90%{opacity:0;}
+}
+
+img {
+	animation: trocaBanner 4s infinite;
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+
+img+img {
+	animation-delay:-2s;
+	}
+	
+body:hover img {
+	animation-play-state: paused;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mirror Fashion</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+	<header class="container">
+	<h1 id="mf">Mirror Fashion</h1>
+	<p class="sacola">Nenhum item na sacola de compras</p>
+	<nav class="menu-setores">
+				<ul>
+					<li><a href="#">Sua Conta</a></li>
+					<li><a href="#">Lista de Desejos</a></li>
+					<li><a href="#">Cartao Fidelidade</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="#">Ajuda</a></li>
+				<ul>
+			</nav>
+	</header>		
+	<section class="container contato">
+	<h2>Entre em contato com a Mirror Fashion</h2>
+	<form>
+		<label for="campo-nome">Nome</label><input name="nome" id="campo-nome" required autofocus>
+		<label for="campo-email">Email</label><input name="email" type="email" id="campo-email" required placeholder="email@example.com">
+		<label for="campo-tel">Telefone</label><input name="tel" type="tel" id="campo-tel">
+		<label>Cidade</label>
+			<select name="cidade">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option>Outras</option>
+			</select>	
+		<label for="campo-msg">Mensagem</label><textarea name="mensagem" id="campo-msg"></textarea>
+			<fieldset>
+				<legend>Opções de e-mail</legend>
+				<label>
+					<input type="checkbox" name="newsletter" value="receber" checked>
+					Desejo receber a newsletter
+				</label>
+				<label>
+					<input type="checkbox" name="parceiros" value="receber">
+					Desejo receber e-mails de parceiros
+				</label>
+			</fieldset>	
+			<input type="submit" value="Enviar contato">
+		</form>
+		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Jacarezinho+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=2&amp;oq=jaca&amp;sll=37.0625,-95.677068&amp;sspn=40.409448,80.859375&amp;ie=UTF8&amp;hq=&amp;hnear=Jacarezinho+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=10&amp;ll=-23.161626,-49.969729&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Jacarezinho+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=2&amp;oq=jaca&amp;sll=37.0625,-95.677068&amp;sspn=40.409448,80.859375&amp;ie=UTF8&amp;hq=&amp;hnear=Jacarezinho+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=10&amp;ll=-23.161626,-49.969729" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
+	</section>	
+	<footer>
+		<div class="container">
+			<h1>Mirror Fashion</h1>			
+			<ul class="social">
+				<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+				<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+				<li><a href="http://plus.google.com/mirrorfashion">Google</a></li>
+			</ul>
+		</div>
+	</footer>		
+<script src="js/validacao.js"></script>
+<script src="js/home.js"></script>							
+</body>
+</html>
